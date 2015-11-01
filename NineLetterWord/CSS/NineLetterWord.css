@@ -1,0 +1,411 @@
+﻿html 
+{
+    MARGIN-TOP: 2%;
+    MARGIN-BOTTOM: auto;
+    MARGIN-LEFT: auto;
+    MARGIN-RIGHT: auto;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+body
+{
+    cursor:auto;
+    background: #b6b7bc;
+    font-size: 1em;
+}
+.gameBoard
+{   
+    MARGIN-LEFT: auto;
+    MARGIN-RIGHT: auto;
+    background-color:black;
+    border: 1px solid yellow;
+    border-bottom:0px;
+}
+
+.NineLetterWord
+{
+    width: 540px;
+    height:500px;
+}
+
+.grid
+{
+    width: 500px;
+    height:460px;
+    MARGIN-LEFT:auto;
+    MARGIN-RIGHT:auto;   
+    MARGIN-TOP: 4%;   
+    border: 1px solid yellow;
+}
+
+.row
+{
+    height:50px;  
+}
+
+.cell
+{
+    display: inline-block;
+    width:50px;  
+    height:48px;
+    border: 1px solid gray;
+    background-color:white;
+}
+
+.closed
+{
+    background-color:black;
+}
+
+.Button
+{
+    color:black;
+    MARGIN-TOP: 2px;
+    font-size:22px;
+    background-color:yellow;
+    width:237px;
+}
+
+.DisabledButton
+{
+    color:gray;
+}
+
+.ActionAreaButton
+{   
+    MARGIN-TOP: 0px;
+    MARGIN-LEFT:20px;
+}
+
+.TimerBar
+{   
+    MARGIN-LEFT:auto;
+    MARGIN-RIGHT: auto;
+    border: 1px solid yellow;
+    background-color:black;
+    border-top-width:0px;
+    height:48px;
+    text-align:center;
+    color:Gray;
+}
+
+.TextTimer
+{
+    font-size:28px;
+}
+
+.ButtonBar
+{   
+    MARGIN-LEFT:auto;
+    MARGIN-RIGHT: auto;
+    border: 1px solid yellow;
+    background-color:black;
+    border-bottom-width:0px;
+    border-top:0px;
+    height:48px;
+}
+
+.PanelLegend
+{
+    color:Yellow;
+    font-size:22px;
+    
+}
+
+.CenterThis
+{
+    color:white;
+    height: 170px;
+    text-align:center;
+    margin: 0px auto 0px auto;
+}
+
+.Result
+{
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size:26px;
+}
+
+.ResultFielsdSet
+{
+    border: 1px solid yellow;
+}
+
+.footer
+{
+    padding-top:2px;
+    color:Gray;
+    text-align:center;
+    font-size:12px;
+}
+
+.HelpContents
+{
+    overflow:auto; 
+    height:260px;
+    font-size:18px;
+    color:White;
+}
+.HelpText
+{
+    text-align:center;
+}
+.HelpLink, .OnlineHelpLink
+{
+    color:Gray;
+    text-decoration: none;
+}
+.HelpLink
+{
+    MARGIN-RIGHT: 4%;
+}
+.HelpLink:hover, .OnlineHelpLink:hover
+{
+    color:White;
+    cursor:help;
+}
+
+.spacer
+{
+    MARGIN-LEFT:140px;
+    margin-top:20px;
+    padding:0px;
+    height:40px;
+    background-color:black;
+    color:Gray;
+    font-size:20px;
+}
+
+.slider
+{
+    MARGIN-LEFT:38px;
+    position:absolute;
+    display:inline-block;
+    padding:0px;
+    width:440px;
+}
+
+/*------------------START letters Section--------------------*/
+.extra
+{
+}
+
+.Blank
+{
+    background-color:yellow;
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/QQ.jpg");
+}
+
+.A
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/A.jpg");
+}
+
+.B
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/B.jpg");
+}
+.C
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/C.jpg");
+}
+.D
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/D.jpg");
+}
+.E
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/E.jpg");
+}
+.F
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/F.jpg");
+}
+.G
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/G.jpg");
+}
+.H
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/H.jpg");
+}
+.I
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/I.jpg");
+}
+.J
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/J.jpg");
+}
+.K
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/K.jpg");
+}
+.L
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/L.jpg");
+}
+.M
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/M.jpg");
+}
+.N
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/N.jpg");
+}
+.O
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/O.jpg");
+}
+.P
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/P.jpg");
+}
+.Q
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/Q.jpg");
+}
+.R
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/R.jpg");
+}
+.S
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/S.jpg");
+}
+.T
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/T.jpg");
+}
+.U
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/U.jpg");
+}
+.V
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/V.jpg");
+}
+.W
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/W.jpg");
+}
+.X
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/X.jpg");
+}
+.Y
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/Y.jpg");
+}
+.Z
+{
+    width: 100%;
+    height: 100%;
+    background-size:50px 48px;
+    background-repeat:no-repeat;
+    background-image: url("../Images/Letters/Z.jpg");
+}

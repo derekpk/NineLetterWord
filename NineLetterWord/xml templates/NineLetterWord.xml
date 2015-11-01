@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Grid RowCount="1" CellCount="9">
+  <Row id="One">
+    <Cell id="One_1" occupied="1" type="0" colour="0" team="0" letter="0" />
+    <Cell id="One_2" occupied="1" type="0" colour="0" team="0" letter="0" />
+    <Cell id="One_3" occupied="1" type="0" colour="0" team="0" letter="0" />
+    <Cell id="One_4" occupied="1" type="0" colour="0" team="0" letter="0" />
+    <Cell id="One_5" occupied="1" type="0" colour="0" team="0" letter="0" />
+    <Cell id="One_6" occupied="1" type="0" colour="0" team="0" letter="0" />
+    <Cell id="One_7" occupied="1" type="0" colour="0" team="0" letter="0" />
+    <Cell id="One_8" occupied="1" type="0" colour="0" team="0" letter="0" />
+    <Cell id="One_9" occupied="1" type="0" colour="0" team="0" letter="0" />
+  </Row>
+  <Row id="Two">
+    <Cell id="Two_1" occupied="0" type="0" colour="1" team="0" letter="0" />
+    <Cell id="Two_2" occupied="0" type="0" colour="1" team="0" letter="0" />
+    <Cell id="Two_3" occupied="0" type="0" colour="1" team="0" letter="0" />
+    <Cell id="Two_4" occupied="0" type="0" colour="1" team="0" letter="0" />
+    <Cell id="Two_5" occupied="0" type="0" colour="1" team="0" letter="0" />
+    <Cell id="Two_6" occupied="0" type="0" colour="1" team="0" letter="0" />
+    <Cell id="Two_7" occupied="0" type="0" colour="1" team="0" letter="0" />
+    <Cell id="Two_8" occupied="0" type="0" colour="1" team="0" letter="0" />
+    <Cell id="Two_9" occupied="0" type="0" colour="1" team="0" letter="0" />
+  </Row>
+  <Row id="Three">
+    <Cell id="Three_1" occupied="0" type="0" colour="0" team="0" letter="0" />
+    <Cell id="Three_2" occupied="0" type="0" colour="0" team="0" letter="0" />
+    <Cell id="Three_3" occupied="0" type="0" colour="0" team="0" letter="0" />
+    <Cell id="Three_4" occupied="0" type="0" colour="0" team="0" letter="0" />
+    <Cell id="Three_5" occupied="0" type="0" colour="0" team="0" letter="0" />
+    <Cell id="Three_6" occupied="0" type="0" colour="0" team="0" letter="0" />
+    <Cell id="Three_7" occupied="0" type="0" colour="0" team="0" letter="0" />
+    <Cell id="Three_8" occupied="0" type="0" colour="0" team="0" letter="0" />
+    <Cell id="Three_9" occupied="0" type="0" colour="0" team="0" letter="0" />
+  </Row>
+</Grid>
