@@ -74,6 +74,7 @@ function StartTimer(startingValue) {
             
             TimesUp(true);
         }
+        $('#MessagePanelMessage').html("<BR><BR>" + totalSeconds % 60 + "<BR><BR>");
     }
     function pad(val) {
         var valString = val + "";
