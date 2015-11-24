@@ -70,11 +70,11 @@ function StartTimer(startingValue) {
         $('#timer > #minutes').html(pad(parseInt(totalSeconds / 60) % 60));
         $('#timer > #hours').html(pad(parseInt((totalSeconds / 60) / 60)));
         gameTimeLeft = gameTime - (totalSeconds % 60);
+        $('#MessagePanelMessage').html("<BR><BR>" + (30 - (totalSeconds % 60)) + "<BR><BR>");
         if ((totalSeconds % 60) == gameTime) {
             
             TimesUp(true);
         }
-        $('#MessagePanelMessage').html("<BR><BR>" + totalSeconds % 60 + "<BR><BR>");
     }
     function pad(val) {
         var valString = val + "";
@@ -389,6 +389,12 @@ function StopGame(e) {
 
     if (strGuess.length > 0)
         $('#MessagePanelMessage').load("AjaxLoad.aspx?param=" + strGuess + "&gameTimeLeft=" + gameTimeLeft);
+    else
+        $('#MessagePanelMessage').html("<BR><BR>You didn't make a word!<BR><BR>");
+}
+
+function Help(event) {
+    $('#MessagePanelMessage').html("<BR><BR>You pressed the help button<BR><BR>");
 }
 
 function TimesUp(changeMessage) {

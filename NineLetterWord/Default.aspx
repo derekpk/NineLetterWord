@@ -69,7 +69,10 @@
     <input id="ButtonStartGame" class='ActionAreaButton Button' type="button" value="Start" onclick="StartGame(event)"/>
     <input id="ButtonStopGame" class='ActionAreaButton Button' type="button" value="Stop" onclick="StopGame(event)"/>
     <div  class='TimerBar NineLetterWord'>
-        <div id="timer" class='TextTimer'><a class="HelpLink" id="HelpLink" onclick="Help(event)">?</a>Game Time : <label id="hours" class='TextTimer'>00</label>:<label id="minutes" class='TextTimer'>00</label>:<label id="seconds" class='TextTimer'>00</label></div>
+        <div id="timer" class='TextTimer'>
+            <a class="HelpLink" id="HelpLink" onclick="Help(event)">?</a>
+            Game Time : <label id="hours" class='TextTimer'>00</label>:<label id="minutes" class='TextTimer'>00</label>:<label id="seconds" class='TextTimer'>00</label>
+        </div>
     </div>
 <div class='footer'>&copy;Nine Letter Word</div>        
 </div>
